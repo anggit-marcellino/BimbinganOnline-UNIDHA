@@ -10,9 +10,10 @@ use Illuminate\Notifications\Notification;
 use NotificationChannels\WebPush\WebPushChannel;
 use NotificationChannels\WebPush\WebPushMessage;
 
-class GenericNotification extends Notification
+class DemoNotification extends Notification
 {
     use Queueable;
+    
     //public $title, $body;
 
     /**
